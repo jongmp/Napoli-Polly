@@ -1,5 +1,5 @@
 # Napoli-Polly
-## Exploring Alexa's ability to discern accents
+**Exploring Alexa's ability to discern accents**
 
 ## Problem
 Accents aren’t always discerned by Amazon’s Alexa, and oftentimes, Alexa executes the wrong commands.
