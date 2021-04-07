@@ -1,7 +1,16 @@
 # Napoli-Polly
 **Exploring Alexa's ability to discern accents**
 
-## Problem
+## Table of Contents 
+1. [Problem](#problem)
+2. Goal
+3. Methodology
+4. Tools
+5. Description
+6. Architecture
+7. Running Our Code
+
+## Problem <a name="problem"/>
 Amazon has been increasing support for accessibility across various accents. However, from our person experience, Amazon’s Alexa appears to sometimes struggle to discerned by Amazon’s Alexa.
 
 ## Goal 
@@ -21,6 +30,7 @@ Our goal is to determine Alexa's ability to recognize different English accents.
 ## Description 
 file_name - (short one line summary) 
 
+## Architecture
 
 ## To Run Our Code 
 description on how to run our code 
