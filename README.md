@@ -1,5 +1,4 @@
-# Napoli-Polly
-**Exploring Alexa's ability to discern accents**
+# **Exploring Alexa's ability to discern accents**
 
 ## Table of Contents 
 1. [Problem](#problem)
