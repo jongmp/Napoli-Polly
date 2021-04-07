@@ -2,7 +2,7 @@
 **Exploring Alexa's ability to discern accents**
 
 ## Problem
-Accents aren’t always discerned by Amazon’s Alexa, and oftentimes, Alexa executes the wrong commands.
+Amazon has been increasing support for accessibility across various accents. However, from our person experience, Amazon’s Alexa appears to sometimes struggle to discerned by Amazon’s Alexa.
 
 ## Goal 
 Our goal is to determine Alexa's ability to recognize different English accents.
