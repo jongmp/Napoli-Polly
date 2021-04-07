@@ -5,7 +5,7 @@
 2. [Goal](#goal)
 3. [Methodology](#method)
 4. [Tools](#tools)
-5. [Description](#desc)
+5. [Files](#desc)
 6. [Architecture](#architect)
 7. [Running Our Code](#help)
 
@@ -26,8 +26,8 @@ Our goal is to determine Alexa's ability to recognize different English accents.
 
 2. AWS Polly - Turns text into life like speech (https://aws.amazon.com/polly/)
 
-## Description <a name="desc"/>
-file_name - (short one line summary) 
+## File Description <a name="desc"/>
+Data - Contains all of our speech samples generated from AWS Polly 
 
 ## Architecture <a name="architect"/>
 
