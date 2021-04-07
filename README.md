@@ -5,7 +5,7 @@ Exploring Alexa's ability to discern accents
 Accents aren’t always discerned by Amazon’s Alexa, and oftentimes, Alexa executes the wrong commands.
 
 ## Goal 
-Our goal is to determine if Alexa recognizes English with Polly’s different accents.
+Our goal is to determine Alexa's ability to recognize different English accents.
 
 ## Methodology 
 1. Use AWS Polly to generate speech samples in different accents. 
