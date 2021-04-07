@@ -3,34 +3,34 @@
 
 ## Table of Contents 
 1. [Problem](#problem)
-2. Goal
-3. Methodology
-4. Tools
-5. Description
-6. Architecture
-7. Running Our Code
+2. [Goal](#goal)
+3. [Methodology](#method)
+4. [Tools](#tools)
+5. [Description](#desc)
+6. [Architecture](#architect)
+7. [Running Our Code](#help)
 
 ## Problem <a name="problem"/>
 Amazon has been increasing support for accessibility across various accents. However, from our person experience, Amazon’s Alexa appears to sometimes struggle to discerned by Amazon’s Alexa.
 
-## Goal 
+## Goal <a name="goal"/>
 Our goal is to determine Alexa's ability to recognize different English accents.
 
-## Methodology 
+## Methodology <a name="method"/>
 1. Use AWS Polly to generate speech samples in different accents. 
 2. Record some of our own and friend's accents. 
 3. Apply AWS Transcribe convert our speech samples into text.
 4. Compare how AWS Transcribe did with genereated speech samples and our own. 
 
-## Tools 
+## Tools <a name="tools"/>
 1. AWS Transcribe - Converting audio meeting recordings into text (https://aws.amazon.com/transcribe/)
 
 2. AWS Polly - Turns text into life like speech (https://aws.amazon.com/polly/)
 
-## Description 
+## Description <a name="desc"/>
 file_name - (short one line summary) 
 
-## Architecture
+## Architecture <a name="architect"/>
 
-## To Run Our Code 
+## To Run Our Code <a name="help"/>
 description on how to run our code 
