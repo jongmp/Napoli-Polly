@@ -30,6 +30,8 @@ Our goal is to determine Alexa's ability to recognize different English accents.
 Data - Contains all of our speech samples generated from AWS Polly 
 
 ## Architecture <a name="architect"/>
+![ArchitectureDiagram](https://github.com/jongmp/Napoli-Polly/blob/main/ArchitectureDiagram.png)
+
 
 ## To Run Our Code <a name="help"/>
 description on how to run our code 
