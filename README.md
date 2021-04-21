@@ -33,7 +33,7 @@ Data - Contains all of our speech samples generated from AWS Polly
 ![ArchitectureDiagram](https://github.com/jongmp/Napoli-Polly/blob/main/ArchitectureDiagram.png)
 
 
-## To Run Our Code <a name="help"/>
-description on how to run our code 
-possibly include gifs to demo
-include audio files samples
+## Running Our Code <a name="help"/>
+1. First we generated our speech samples using AWS Polly. (https://aws.amazon.com/polly/) After logging into your AWS Services account, you should be able to enter text that can be read in different languages and voices. We did the following for Spanish, French, and Hindi for a variety of different texts.
+
+![image](https://user-images.githubusercontent.com/48782795/115628044-fc4f8f80-a2cd-11eb-8243-41a59f7a1353.png)
