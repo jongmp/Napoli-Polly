@@ -44,7 +44,7 @@ We need to then create a bucket where we can store our speech samples. We can do
 
 ![image](https://user-images.githubusercontent.com/48782795/115645277-126d4800-a2ee-11eb-9ed8-71ade1e3f7f5.png)
 
-The only settings that we created were a bucket name. We chose our bucket name to be napoli-bucket and we allowed public access for this bucket. Afterwards, we can select Create Bucket at the bottom of the page. Now, we are ready to generate our speech samples and upload them to the S3 bucket.
+We need to create a bucket name. We chose our bucket name to be napoli-bucket and we allowed public access for this bucket. Afterwards, we can select Create Bucket at the bottom of the page. Now, we are ready to generate our speech samples and upload them to the S3 bucket.
 
 2. Next, we generated our speech samples using AWS Polly. (https://aws.amazon.com/polly/) After logging into your AWS Services account, you should be able to enter text that can be read in different languages and voices. We did the following for Spanish, French, and Hindi for a variety of different texts. All the mp3 files were uploaded to the s3 bucket using the graphical user interface (synthesize to S3). 
 
