@@ -44,7 +44,8 @@ Our goal is to determine Alexa's ability to recognize different English accents.
  ## Running Our Code <a name="help"/>
 
 ### Instructions
-**1.** First, before we generate our speech samples using AWS Polly. We need to first create a S3 bucket that will store all of our speech samples. To do this, log into your AWS Services account. Search for S3 in the search bar at the top. It should bring you to this page. 
+### Step 1
+First, before we generate our speech samples using AWS Polly. We need to first create a S3 bucket that will store all of our speech samples. To do this, log into your AWS Services account. Search for S3 in the search bar at the top. It should bring you to this page. 
 
 ![image](https://user-images.githubusercontent.com/48782795/115645085-bacedc80-a2ed-11eb-97d2-723b3a806ed3.png)
 
@@ -54,7 +55,8 @@ We need to then create a bucket where we can store our speech samples. We can do
 
 We need to create a bucket name. We chose our bucket name to be napoli-bucket and we allowed public access for this bucket. Afterwards, we can select Create Bucket at the bottom of the page. Now, we are ready to generate our speech samples and upload them to the S3 bucket.
 
-**2.** Next, we generated our speech samples using AWS Polly. (https://aws.amazon.com/polly/) After logging into your AWS Services account, you should be able to enter text that can be read in different languages and voices. Here we can specify the language for Spanish, English, French, and Hindi. 
+### Step 2
+Next, we generated our speech samples using AWS Polly. (https://aws.amazon.com/polly/) After logging into your AWS Services account, you should be able to enter text that can be read in different languages and voices. Here we can specify the language for Spanish, English, French, and Hindi. 
 
 ![image](https://user-images.githubusercontent.com/48782795/115628044-fc4f8f80-a2cd-11eb-8243-41a59f7a1353.png)
 
@@ -84,9 +86,12 @@ As shown here, we should now be able to see all of the mp3 files that we have us
 
 ![image](https://user-images.githubusercontent.com/48782795/115648644-cde4ab00-a2f3-11eb-9d10-03a524586728.png)
 
-**3.** Next, through SageMaker we can create an instance. On that instance, we can import the [Dataframe Creation](https://github.com/jongmp/Napoli-Polly/blob/main/Dataframe-Creation.ipynb) ipynb file. This file will walk us through the process of utilizing AWS Transcribe to generate texts from these mp3 files that we have created. 
+### Step 3
+Next, through SageMaker we can create an instance. On that instance, we can import the [Dataframe Creation](https://github.com/jongmp/Napoli-Polly/blob/main/Dataframe-Creation.ipynb) ipynb file. This file will walk us through the process of utilizing AWS Transcribe to generate texts from these mp3 files that we have created. 
 After running this file. We will now have downloaded all of the transcriptions. These should be .json files and they can also be found under our [Transcription](https://github.com/jongmp/Napoli-Polly/tree/main/Transcriptions) folder. 
 
-**4.** With these files, we can run our analysis which we performed in _______________ files name here. This file will walk through the methods we utilized to calculate our accuracy and the steps we took to create our visualizations!
+### Step 4
+With these files, we can run our analysis which we performed in _______________ files name here. This file will walk through the methods we utilized to calculate our accuracy and the steps we took to create our visualizations!
 
-**5.** That is it! Thank you for following along! 
+### Step 5
+That is it! Thank you for following along! 
