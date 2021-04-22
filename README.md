@@ -87,7 +87,7 @@ As shown here, we should now be able to see all of the mp3 files that we have us
 ![image](https://user-images.githubusercontent.com/48782795/115648644-cde4ab00-a2f3-11eb-9d10-03a524586728.png)
 
 ### Step 3
-Next, through SageMaker we can create an instance. On that instance, we can import the [Dataframe Creation](https://github.com/jongmp/Napoli-Polly/blob/main/Dataframe-Creation.ipynb) ipynb file. This file will walk us through the process of utilizing AWS Transcribe to generate texts from these mp3 files that we have created. 
+Next, through SageMaker we can create an instance. On that instance, we can import the [Data-Transcription](https://github.com/jongmp/Napoli-Polly/blob/main/Data-Transcriptions.ipynb) ipynb file. This file will walk us through the process of utilizing AWS Transcribe to generate texts from these mp3 files that we have created. 
 After running this file. We will now have downloaded all of the transcriptions. These should be .json files and they can also be found under our [Transcription](https://github.com/jongmp/Napoli-Polly/tree/main/Transcriptions) folder. 
 
 ### Step 4
