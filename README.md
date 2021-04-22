@@ -40,9 +40,17 @@ Data - Contains all of our speech samples generated from AWS Polly
 
 ![image](https://user-images.githubusercontent.com/48782795/115628044-fc4f8f80-a2cd-11eb-8243-41a59f7a1353.png)
 
+![image](https://user-images.githubusercontent.com/48782795/115641780-c4554600-a2e7-11eb-9553-046fb15cf73a.png)
+
+After selecting the "Synthesize to S3" Button, a pop up window will be created. 
+
 Our audio files can be downloaded through our [MP3 files](https://github.com/jongmp/Napoli-Polly/tree/main/MP3%20files) folder on this GitHub Repo. 
 
+
+
 2. Next, through SageMaker, we utilized AWS Transcribe. 
-3. Extract names 
-4. Put names into dataframe 
-5. for each mps file, we createed a link and a job name 
+
+
+4. Extract names 
+5. Put names into dataframe 
+6. for each mps file, we createed a link and a job name 
