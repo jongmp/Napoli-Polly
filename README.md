@@ -91,7 +91,7 @@ Next, through SageMaker we can create an instance. On that instance, we can impo
 After running this file. We will now have downloaded all of the transcriptions. These should be .json files and they can also be found under our [Transcription](https://github.com/jongmp/Napoli-Polly/tree/main/Transcriptions) folder. 
 
 ### Step 4
-With these files, we can run our analysis which we performed in [dataframe polly](https://github.com/jongmp/Napoli-Polly/blob/main/dataframepolly%20(1).ipynb) file. This file will walk through the methods we utilized to calculate our accuracy and the steps we took to create our visualizations!
+With these files, we can run our analysis which we performed in [dataframe polly](https://github.com/jongmp/Napoli-Polly/blob/main/dataframepolly%20(2).ipynb) file. This file will walk through the methods we utilized to calculate our accuracy and the steps we took to create our visualizations!
 
 ### Step 5
 That is it! Thank you for following along! 
