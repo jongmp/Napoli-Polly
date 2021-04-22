@@ -31,6 +31,9 @@ Our goal is to determine Alexa's ability to recognize different English accents.
 * Data.csv - A csv file with information about the mp3 file generated, the confidence level of AWS transcribe, and the generated transcriptions
 * Diagram.png - Image of our Architecture Diagram
 * Data-Transcription - A jupyter notebook that highlights the steps that we took to retrieve our transcriptions
+* MP3 Files Folder - Folder including all of our mp3 files generated from AWS Polly
+* Transcriptions - Outputs of AWS Transcribe
+* Blog_Draft.ipynb - Blog
 
 
  ## Architecture <a name="architect"/>
