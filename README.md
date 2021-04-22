@@ -36,13 +36,13 @@ Data - Contains all of our speech samples generated from AWS Polly
 ## Running Our Code <a name="help"/>
 
 ### Instructions to Ge
-1. First we generated our speech samples using AWS Polly. (https://aws.amazon.com/polly/) After logging into your AWS Services account, you should be able to enter text that can be read in different languages and voices. We did the following for Spanish, French, and Hindi for a variety of different texts. All the mp3 files were uploaded to the s3 bucket using the graphical user interface. 
+1. First we generated our speech samples using AWS Polly. (https://aws.amazon.com/polly/) After logging into your AWS Services account, you should be able to enter text that can be read in different languages and voices. We did the following for Spanish, French, and Hindi for a variety of different texts. All the mp3 files were uploaded to the s3 bucket using the graphical user interface (synthesize to S3). 
 
 ![image](https://user-images.githubusercontent.com/48782795/115628044-fc4f8f80-a2cd-11eb-8243-41a59f7a1353.png)
 
 Our audio files can be downloaded through our [MP3 files](https://github.com/jongmp/Napoli-Polly/tree/main/MP3%20files) folder on this GitHub Repo. 
 
-2. Next, through our jupyter notebook file, we utilized boto3. 
+2. Next, through SageMaker, we utilized AWS Transcribe. 
 3. Extract names 
 4. Put names into dataframe 
 5. for each mps file, we createed a link and a job name 
