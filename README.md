@@ -46,13 +46,16 @@ We need to then create a bucket where we can store our speech samples. We can do
 
 We need to create a bucket name. We chose our bucket name to be napoli-bucket and we allowed public access for this bucket. Afterwards, we can select Create Bucket at the bottom of the page. Now, we are ready to generate our speech samples and upload them to the S3 bucket.
 
-2. Next, we generated our speech samples using AWS Polly. (https://aws.amazon.com/polly/) After logging into your AWS Services account, you should be able to enter text that can be read in different languages and voices. We did the following for Spanish, French, and Hindi for a variety of different texts. All the mp3 files were uploaded to the s3 bucket using the graphical user interface (synthesize to S3). 
+2. Next, we generated our speech samples using AWS Polly. (https://aws.amazon.com/polly/) After logging into your AWS Services account, you should be able to enter text that can be read in different languages and voices. Here we can specify the language for Spanish, French, and Hindi. 
 
 ![image](https://user-images.githubusercontent.com/48782795/115628044-fc4f8f80-a2cd-11eb-8243-41a59f7a1353.png)
 
-![image](https://user-images.githubusercontent.com/48782795/115641780-c4554600-a2e7-11eb-9553-046fb15cf73a.png)
+After inputing the text, we uploaded the text files to the s3 bucket using the graphical user interface (synthesize to S3). After selecting the "Synthesize to S3" Button, a pop up window will be created. 
 
-After selecting the "Synthesize to S3" Button, a pop up window will be created. 
+![image](https://user-images.githubusercontent.com/48782795/115646492-3af64180-a2f0-11eb-8494-459dcad101ad.png)
+
+In Step 1, we created a bucket called "napoli-bucket", we can use this bucket name as the name of the bucket here. We can then click "Synthesize" to attach our mp3 file into our S3 bucket! 
+
 
 Our audio files can be downloaded through our [MP3 files](https://github.com/jongmp/Napoli-Polly/tree/main/MP3%20files) folder on this GitHub Repo. 
 
