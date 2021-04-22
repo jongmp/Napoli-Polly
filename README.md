@@ -68,7 +68,7 @@ If we go back to our S3 bucket, we should find the a new mp3 file. Unfortunately
 
 As this process may be a little tedious for everyone. The audio files that we used can be downloaded through our [MP3 files](https://github.com/jongmp/Napoli-Polly/tree/main/MP3%20files) folder on this GitHub Repo. 
 
-**3.** Next, through SageMaker, we utilized AWS Transcribe. 
+**3.** Next, through SageMaker we can create an instance. On that instance, we can import the [Dataframe Creation](https://github.com/jongmp/Napoli-Polly/blob/main/Dataframe-Creation.ipynb) ipynb file. This file will walk us through the process of utilizing AWS Transcribe to generate texts from these mp3 files that we have created. 
 
 
 4. Extract names 
