@@ -35,7 +35,7 @@ Data - Contains all of our speech samples generated from AWS Polly
 
 ## Running Our Code <a name="help"/>
 
-### Instructions to Ge
+### Instructions
 **1.** First, before we generate our speech samples using AWS Polly. We need to first create a S3 bucket that will store all of our speech samples. To do this, log into your AWS Services account. Search for S3 in the search bar at the top. It should bring you to this page. 
 
 ![image](https://user-images.githubusercontent.com/48782795/115645085-bacedc80-a2ed-11eb-97d2-723b3a806ed3.png)
