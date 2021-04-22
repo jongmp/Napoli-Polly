@@ -27,7 +27,9 @@ Our goal is to determine Alexa's ability to recognize different English accents.
 2. AWS Polly - Turns text into life like speech (https://aws.amazon.com/polly/)
 
 ## File Description <a name="desc"/>
-Data - Contains all of our speech samples generated from AWS Polly 
+Data - A csv file with information about the mp3 file generated, the confidence level of AWS transcribe, and the generated transcriptions
+
+
  ## Architecture <a name="architect"/>
  ![ArchitectureDiagram](https://github.com/jongmp/Napoli-Polly/blob/main/Diagram.png)
 
