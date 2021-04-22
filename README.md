@@ -28,9 +28,9 @@ Our goal is to determine Alexa's ability to recognize different English accents.
 
 ## File Description <a name="desc"/>
 
-Data.csv - A csv file with information about the mp3 file generated, the confidence level of AWS transcribe, and the generated transcriptions
-Diagram.png - Image of our Architecture Diagram
-Data-Transcription - A jupyter notebook that highlights the steps that we took to retrieve our transcriptions
+* Data.csv - A csv file with information about the mp3 file generated, the confidence level of AWS transcribe, and the generated transcriptions
+* Diagram.png - Image of our Architecture Diagram
+* Data-Transcription - A jupyter notebook that highlights the steps that we took to retrieve our transcriptions
 
 
  ## Architecture <a name="architect"/>
