@@ -33,6 +33,7 @@ Our goal is to determine Alexa's ability to recognize different English accents.
 * MP3 Files Folder - Folder including all of our mp3 files generated from AWS Polly
 * Transcriptions - Outputs of AWS Transcribe
 * Blog_Draft.ipynb - Blog
+* dataframepolly.ipynb - Analysis of the Outputs from AWS Transcribe
 
 
  ## Architecture <a name="architect"/>
