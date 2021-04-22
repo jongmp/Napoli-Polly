@@ -18,9 +18,8 @@ Our goal is to determine Alexa's ability to recognize different English accents.
 
 ## Methodology <a name="method"/>
 1. Use AWS Polly to generate speech samples in different accents. 
-2. Record some of our own and friend's accents. 
-3. Apply AWS Transcribe convert our speech samples into text.
-4. Compare how AWS Transcribe did with genereated speech samples and our own. 
+2. Apply AWS Transcribe convert our speech samples into text.
+3. Compare how AWS Transcribe did with genereated speech samples and our own. 
 
 ## Tools <a name="tools"/>
 1. AWS Transcribe - Converting audio meeting recordings into text (https://aws.amazon.com/transcribe/)
