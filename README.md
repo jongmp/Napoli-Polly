@@ -37,7 +37,7 @@ Our goal is to determine Alexa's ability to recognize different English accents.
 
 
  ## Architecture <a name="architect"/>
- ![ArchitectureDiagram](https://github.com/jongmp/Napoli-Polly/blob/main/Diagram.png)
+ ![ArchitectureDiagram](https://github.com/jongmp/Napoli-Polly/blob/main/Architecture.png)
 
  First, we input text data into S3 buckets, which will be used to create MP3 files in the Amazon Polly interface. Then, we will send those MP3 files into another S3 bucket. Using Amazon SageMaker, we will call Amazon Transcribe to transcribe the MP3 files from that bucket. The output of Transcribe is a JSON file, which we will use to analyze in a Jupyter Notebook. 
 
